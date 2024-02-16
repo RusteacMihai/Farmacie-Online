@@ -1,0 +1,17 @@
+
+ .content {
+   
+    background: linear-gradient(to right, #000000, #470f0f);
+    border: 1px solid #cdb4b4;
+    width: 100%;
+
+ }
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    color: aliceblue;
+}

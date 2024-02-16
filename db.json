@@ -1,0 +1,137 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Walking Dead: Daryl Dixon",
+      "director": "David Zabel",
+      "image": "https://image.tmdb.org/t/p/w185/kdM24KINoAVK9wjCtDJCkdffEpc.jpg",
+      "video": "video_url_1.mp4",
+      "category": "Drama, Horror",
+      "rating": 4,
+      "duration": 60,
+      "year": 2023
+    },
+    {
+      "id": 2,
+      "title": "Foundation",
+      "director": "David S. Goyer",
+      "image": "https://image.tmdb.org/t/p/w185/do9InU7vjt0xpraElOss6R1Tml6.jpg",
+      "video": "video_url_2.mp4",
+      "category": "Drama, SF",
+      "rating": 3.5,
+      "duration": 69,
+      "year": 2021
+    },
+    {
+      "id": 3,
+      "title": "Ahsoka",
+      "director": "Dave Filoni",
+      "image": "https://image.tmdb.org/t/p/w185/laCJxobHoPVaLQTKxc14Y2zV64J.jpg",
+      "video": "video_url_3.mp4",
+      "category": "Action",
+      "rating": 4,
+      "duration": 54,
+      "year": 2023
+    },
+    {
+      "id": 4,
+      "title": "Indiana Jones and the Dial of Destiny",
+      "director": "James Mangold",
+      "image": "https://image.tmdb.org/t/p/w185/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+      "video": "video_url_1.mp4",
+      "category": "Action, Adventure, SF",
+      "rating": 3.5,
+      "duration": 154,
+      "year": 2023
+    },
+    {
+      "id": 5,
+      "title": "The Mechanic",
+      "director": "Simon West",
+      "image": "https://image.tmdb.org/t/p/w185/k37axEHszFP9WOVvbozxF0r7X7g.jpg",
+      "video": "video_url_2.mp4",
+      "category": "Action, Crime, Thriller",
+      "rating": 3.5,
+      "duration": 93,
+      "year": 2011
+    },
+    {
+      "id": 6,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "director": "Joaquin Dos Santos",
+      "image": "https://image.tmdb.org/t/p/w185/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "video": "video_url_1.mp4",
+      "category": "Animation, Action, Adventure",
+      "rating": 4,
+      "duration": 140,
+      "year": 2023
+    },
+    {
+      "id": 7,
+      "title": "Puss in Boots: The Last Wish",
+      "director": "Joel Crawford",
+      "image": "https://image.tmdb.org/t/p/w185/kuf6dutpsT0vSVehic3EZIqkOBt.jpg",
+      "video": "video_url_1.mp4",
+      "category": "Comedy",
+      "rating": 4.8,
+      "duration": 100,
+      "year": 2022
+    },
+    {
+      "id": 8,
+      "title": "Scrooge: A Christmas Carol",
+      "director": "Stephen Donnelly",
+      "image": "https://image.tmdb.org/t/p/w185/nOrnzHn9SCF6JTXfX02eSPyAAXL.jpg",
+      "video": "video_url_2.mp4",
+      "category": "Musical",
+      "rating": 4.4,
+      "duration": 96,
+      "year": 2022
+    },
+    {
+      "id": 9,
+      "title": "No Hard Feelings",
+      "director": "Gene Stupnitsky",
+      "image": "https://image.tmdb.org/t/p/w185/5xeNPGbM8ImVdJACUoGpXT8Pxx3.jpg",
+      "video": "video_url_3.mp4",
+      "category": "Comedy, Romance",
+      "rating": 4,
+      "duration": 103,
+      "year": 2023
+    },
+    {
+      "id": 10,
+      "title": "Asterix & Obelix: The Middle Kingdom",
+      "director": "Guillaume Canet",
+      "image": "https://image.tmdb.org/t/p/w185/ifOqT5SmA4ANjmyEacLw3KAFKUd.jpg",
+      "video": "video_url_1.mp4",
+      "category": "Comedy, Adventure",
+      "rating": 3.6,
+      "duration": 111,
+      "year": 2023
+    },
+    {
+      "id": 11,
+      "title": "Heart of Stone",
+      "director": "Tom Harper",
+      "image": "https://image.tmdb.org/t/p/w185/vB8o2p4ETnrfiWEgVxHmHWP9yRl.jpg",
+      "video": "video_url_2.mp4",
+      "category": "Action, Spy, Thriller",
+      "rating": 3.1,
+      "duration": 122,
+      "year": 2023
+    },
+    {
+      "id": 12,
+      "title": "Paradise",
+      "director": "Boris Kunz",
+      "image": "https://image.tmdb.org/t/p/w185/yGz88hNPcHUJkUx7MPm0Ue6GZt7.jpg",
+      "video": "video_url_1.mp4",
+      "category": "Action, SF, Thriller",
+      "rating": 4,
+      "duration": 109,
+      "year": 2023
+    }
+  ],
+  "user": []
+}

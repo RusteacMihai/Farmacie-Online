@@ -1,0 +1,62 @@
+.navbar {
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #000000, #470f0f);
+  border: 1px solid #cdb4b4;
+  position: absolute;
+}
+.title {
+  color: aliceblue;
+  /* color: #e00b00; */
+  margin-left: 45px;
+  padding-top: 25px;
+}
+.container-nav-bar {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;
+  width: 110x;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.nav-bar-list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 600px;
+  position: absolute;
+  right: 50px;
+  font-size: 25px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.nav-bar-list > li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration-line: none;
+
+  color: aliceblue;
+}
+
+.sub-container {
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  display: block;
+  align-content: center;
+}
+
+.title {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: -70px;
+}

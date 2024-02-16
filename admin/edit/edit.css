@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 250px;
+  background: linear-gradient(to right, #000, #762424);
+  font-size: larger;
+}
+
+iframe {
+  display: flex;
+  margin: 50px auto;
+  width: 800px;
+  max-width: 100%;
+  height: 600px;
+}
+footer {
+  padding: 24px;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  max-width: 100%;
+}
+.footer-logo img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.container-form {
+  background: #f2dcdc;
+  /* background: #bebebe; */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 50px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* button[type="submit"]:hover {
+  background-color: #0056b3;
+} */
+
+#editButton {
+  background-color: #007bff;
+}
+
+#editButton:hover {
+  background-color: #00aeff;
+}
+
+#deleteButton {
+  background-color: #731313;
+}
+
+#deleteButton:hover {
+  background-color: #ad0909;
+}
+
+.title {
+  color: white;
+}
+
+/* FITERS  */
+
+.filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.filter-bar select {
+  background-color: #3b0808;
+  color: #ffffff;
+  font-size: x-large;
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px -8px #000;
+}
+#filtruButton {
+  background-color: #ebebeb;
+  color: #180303;
+  padding: 7px;
+  margin-top: 10px;
+  border: 1px solid #cfa9a9;
+  border-radius: 20px;
+  box-shadow: 0px 5px 25px -8px #000;
+  font-size: x-large;
+  font-family: "Poppins", sans-serif;
+}

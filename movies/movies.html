@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
+    <link rel="stylesheet" href="/navbar/nav.css" />
+    <link rel="stylesheet" href="/footer/footer.style.css" />
+    <link rel="stylesheet" href="/movies/movies.css" />
+    <title>movies</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-nav-bar">
+        <div class="sub-container">
+          <div>
+            <img class="logo" src="/pictures/cinema-logo.png" alt="Logo" />
+          </div>
+          <div class="title">CineStar</div>
+        </div>
+        <div class="select-nav-bar">
+          <ul class="nav-bar-list">
+            <li><a href="/Home/Home.html"> Home </a></li>
+            <li><a href="/Movies/movies.html">Movies </a></li>
+
+            <li><a href="/admin/add/add.html">Add </a></li>
+            <li><a href="/admin/edit/edit.html">Edit-Delete </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="movies">
+        <div class="filter-bar">
+          <div class="filter-dropdowns">
+            <select name="category" class="category" id="selectCategorie">
+              <option value="all-categories">All Categories</option>
+              <option value="action">Action</option>
+              <option value="comedy">Adventure</option>
+              <option value="comedy">Comedy</option>
+              <option value="animation">Animation</option>
+              <option value="horror">Horror</option>
+              <option value="musical">Musical</option>
+              <option value="romance">Romance</option>
+              <option value="sf">SF</option>
+              <option value="spy">Spy</option>
+              <option value="thriller">Thriller</option>
+            </select>
+            <select name="rating" class="rating" id="selectRating">
+              <option value="any-rating">Any Rating</option>
+              <option value="1">*</option>
+              <option value="2">**</option>
+              <option value="3">***</option>
+              <option value="4">****</option>
+              <option value="5">*****</option>
+            </select>
+            <select name="year" class="select" id="selectAn">
+              <option value="all-years" id="allRatings">All Years</option>
+              <option value="2023" id="2023">2023</option>
+              <option value="2022" id="2022">2022</option>
+              <option value="2021" id="2021">2021</option>
+              <option value="2020" id="2020">2020</option>
+              <option value="2019" id="2019">2019</option>
+              <option value="2011" id="2011">2011</option>
+            </select>
+            <div name="filter-button-name" class="filtru">
+              <button id="filtruButton">Filter</button>
+            </div>
+            <div id="searchForm">
+              <input
+                type="text"
+                placeholder="Search Movie"
+                id="searchInput"
+                class="search"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="movies-grid" id="containerMovies">
+          <div class="movie-card" id="">
+            <div class="movie-head">
+              <img src="" alt="" class="card-img" />
+            </div>
+            <div class="card-body overview">
+              <h3 class="card-title">Title:</h3>
+              <div class="card-info">
+                <div class="category">Genre:</div>
+                <div class="rating">Rating:</div>
+                <div class="year">Year:</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="movies.js"></script>
+  </body>
+</html>

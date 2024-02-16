@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="add.css" />
+    <link rel="stylesheet" href="/navbar/nav.css" />
+    <link rel="stylesheet" href="/Footer/footer.style.css" />
+    <title>Your Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-nav-bar">
+        <div class="sub-container">
+          <div>
+            <img class="logo" src="/pictures/cinema-logo.png" alt="Logo" />
+          </div>
+          <div class="title">CineStar</div>
+        </div>
+        <div class="select-nav-bar">
+          <ul class="nav-bar-list">
+            <li><a href="/Home/Home.html"> Home </a></li>
+            <li><a href="/Movies/movies.html">Movies </a></li>
+
+            <li><a href="/admin/add/add.html">Add </a></li>
+            <li><a href="/admin/edit/edit.html">Edit-Delete</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-form">
+      <form id="addForm">
+        <div class="form-group">
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" />
+        </div>
+
+        <div class="form-group">
+          <label for="director">Director:</label>
+          <input type="text" id="director" name="author" />
+        </div>
+
+        <div class="form-group">
+          <label for="image">Image URL:</label>
+          <input type="text" id="image" name="image" />
+        </div>
+
+        <div class="form-group">
+          <label for="video">Video URL:</label>
+          <input type="text" id="video" name="video" />
+        </div>
+
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <input type="text" id="category" name="category" />
+        </div>
+
+        <div class="form-group">
+          <label for="rating">Rating:</label>
+          <input
+            type="number"
+            id="rating"
+            name="rating"
+            step="0.1"
+            min="0"
+            max="5"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="duration">Duration (minutes):</label>
+          <input
+            type="number"
+            id="duration"
+            name="duration"
+            min="15"
+            max="240"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="year">Year:</label>
+          <input type="number" id="year" name="year" min="1900" max="2023" />
+        </div>
+
+        <button id="btn-add" type="submit">Submit</button>
+        <!-- onclick="addItem()" -->
+      </form>
+    </div>
+    <footer>
+      <div class="content">
+        <div class="contact">
+          <div><a href="#">Facebook</a></div>
+
+          <p>@CopyRight 2023</p>
+          <div><a href="#"> Instagram</a></div>
+        </div>
+      </div>
+    </footer>
+    <script src="add.js"></script>
+  </body>
+</html>
